@@ -22,7 +22,7 @@ export class ContactComponent {
 
   // Fonction qui ouvre WhatsApp avec le message pré-rempli
   openWhatsApp(message: string) {
-    const phoneNumber = '+21671160021'; // Votre numéro WhatsApp au format international
+    const phoneNumber = '+22871160021'; // Votre numéro WhatsApp au format international
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   }
