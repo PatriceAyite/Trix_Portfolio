@@ -28,9 +28,9 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/bootswatch/dist/Sketchy/bootstrap.css",
               "src/styles.css"
             ],
+
             "scripts": []
           },
           "configurations": {
